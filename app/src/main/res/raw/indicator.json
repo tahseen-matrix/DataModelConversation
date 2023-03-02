@@ -1,0 +1,3152 @@
+{
+    "events_data": [
+        {
+            "id": 84900,
+            "sport_id": 171,
+            "tournament_id": 320,
+            "start_date": "28/02/23 13:30",
+            "event_name": "RANS Nusantara FC Vs Persebaya Surabaya",
+            "currently_live": 1,
+            "video_channel_id": "299",
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210610779",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 52729394,
+                    "selectionName": "RANS Nusantara FC",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 10224413,
+                    "selectionName": "Persebaya Surabaya",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210610779",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 52729394,
+                        "back_odds": [
+                            {
+                                "price": 4.4,
+                                "size": 92.46
+                            },
+                            {
+                                "price": 4.3,
+                                "size": 98.48
+                            },
+                            {
+                                "price": 4.2,
+                                "size": 36.19
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 4.6,
+                                "size": 132.76
+                            },
+                            {
+                                "price": 4.7,
+                                "size": 180.14
+                            },
+                            {
+                                "price": 4.8,
+                                "size": 191
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 10224413,
+                        "back_odds": [
+                            {
+                                "price": 1.67,
+                                "size": 240.02
+                            },
+                            {
+                                "price": 1.65,
+                                "size": 307.62
+                            },
+                            {
+                                "price": 1.64,
+                                "size": 48.85
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 1.68,
+                                "size": 19.83
+                            },
+                            {
+                                "price": 1.69,
+                                "size": 66.48
+                            },
+                            {
+                                "price": 1.7,
+                                "size": 61.39
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 5.5,
+                                "size": 10.7
+                            },
+                            {
+                                "price": 5.4,
+                                "size": 22.87
+                            },
+                            {
+                                "price": 5.3,
+                                "size": 25.66
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 5.6,
+                                "size": 84.4
+                            },
+                            {
+                                "price": 5.7,
+                                "size": 97.21
+                            },
+                            {
+                                "price": 5.8,
+                                "size": 95.96
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 84898,
+            "sport_id": 171,
+            "tournament_id": 320,
+            "start_date": "28/02/23 15:30",
+            "event_name": "Arema Cronus Vs Persik Kediri",
+            "currently_live": 0,
+            "video_channel_id": "337",
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210614849",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 8567505,
+                    "selectionName": "Arema Cronus",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 2373015,
+                    "selectionName": "Persik Kediri",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210614849",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 8567505,
+                        "back_odds": [
+                            {
+                                "price": 1.72,
+                                "size": 5.58
+                            },
+                            {
+                                "price": 1.71,
+                                "size": 52.97
+                            },
+                            {
+                                "price": 1.7,
+                                "size": 234.03
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 1.74,
+                                "size": 25.79
+                            },
+                            {
+                                "price": 1.75,
+                                "size": 166.93
+                            },
+                            {
+                                "price": 1.76,
+                                "size": 23.69
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 2373015,
+                        "back_odds": [
+                            {
+                                "price": 5.8,
+                                "size": 4.17
+                            },
+                            {
+                                "price": 5.7,
+                                "size": 3.42
+                            },
+                            {
+                                "price": 5.6,
+                                "size": 5
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 6.2,
+                                "size": 24.09
+                            },
+                            {
+                                "price": 6.4,
+                                "size": 31.27
+                            },
+                            {
+                                "price": 6.6,
+                                "size": 14.32
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 3.95,
+                                "size": 16.95
+                            },
+                            {
+                                "price": 3.9,
+                                "size": 17.35
+                            },
+                            {
+                                "price": 3.85,
+                                "size": 5.31
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 4.1,
+                                "size": 2.34
+                            },
+                            {
+                                "price": 4.2,
+                                "size": 17.71
+                            },
+                            {
+                                "price": 4.3,
+                                "size": 21.91
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 83402,
+            "sport_id": 171,
+            "tournament_id": 501,
+            "start_date": "28/02/23 17:30",
+            "event_name": "Lechia Zielona Gora Vs Legia Warsaw",
+            "currently_live": 1,
+            "video_channel_id": "514",
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210416432",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 7583061,
+                    "selectionName": "Lechia Zielona Gora",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 241091,
+                    "selectionName": "Legia Warsaw",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210416432",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 7583061,
+                        "back_odds": [
+                            {
+                                "price": 15.5,
+                                "size": 8.2
+                            },
+                            {
+                                "price": 15,
+                                "size": 21.05
+                            },
+                            {
+                                "price": 14,
+                                "size": 16.75
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 18,
+                                "size": 3.97
+                            },
+                            {
+                                "price": 18.5,
+                                "size": 28.92
+                            },
+                            {
+                                "price": 19.5,
+                                "size": 26.82
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 241091,
+                        "back_odds": [
+                            {
+                                "price": 1.25,
+                                "size": 6.9
+                            },
+                            {
+                                "price": 1.23,
+                                "size": 168.88
+                            },
+                            {
+                                "price": 1.22,
+                                "size": 9
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 1.28,
+                                "size": 304.54
+                            },
+                            {
+                                "price": 1.29,
+                                "size": 59.39
+                            },
+                            {
+                                "price": 1.3,
+                                "size": 452.97
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 6.6,
+                                "size": 25.59
+                            },
+                            {
+                                "price": 6.4,
+                                "size": 10.56
+                            },
+                            {
+                                "price": 6.2,
+                                "size": 2
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 7.4,
+                                "size": 1.34
+                            },
+                            {
+                                "price": 8.2,
+                                "size": 105.18
+                            },
+                            {
+                                "price": 8.4,
+                                "size": 10.48
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 85061,
+            "sport_id": 171,
+            "tournament_id": 437,
+            "start_date": "28/02/23 18:30",
+            "event_name": "Hajduk Split U19 Vs Man City U19",
+            "currently_live": 0,
+            "video_channel_id": null,
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210633860",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 13324736,
+                    "selectionName": "Hajduk Split U19",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 6569324,
+                    "selectionName": "Man City U19",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210633860",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 13324736,
+                        "back_odds": [
+                            {
+                                "price": 6.2,
+                                "size": 11.04
+                            },
+                            {
+                                "price": 6,
+                                "size": 3.24
+                            },
+                            {
+                                "price": 5.9,
+                                "size": 2
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 7.2,
+                                "size": 2.32
+                            },
+                            {
+                                "price": 7.4,
+                                "size": 2
+                            },
+                            {
+                                "price": 7.8,
+                                "size": 2.13
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 6569324,
+                        "back_odds": [
+                            {
+                                "price": 1.49,
+                                "size": 12.76
+                            },
+                            {
+                                "price": 1.48,
+                                "size": 7.5
+                            },
+                            {
+                                "price": 1.47,
+                                "size": 10.15
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 1.56,
+                                "size": 19.59
+                            },
+                            {
+                                "price": 1.58,
+                                "size": 6
+                            },
+                            {
+                                "price": 1.59,
+                                "size": 17.69
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 5,
+                                "size": 3.32
+                            },
+                            {
+                                "price": 4.7,
+                                "size": 3
+                            },
+                            {
+                                "price": 4.6,
+                                "size": 4.48
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 5.5,
+                                "size": 1.51
+                            },
+                            {
+                                "price": 5.6,
+                                "size": 2
+                            },
+                            {
+                                "price": 5.7,
+                                "size": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 84845,
+            "sport_id": 171,
+            "tournament_id": 46,
+            "start_date": "28/02/23 18:30",
+            "event_name": "Colchester United U21 Vs Swansea U21",
+            "currently_live": 0,
+            "video_channel_id": null,
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210603738",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 6597943,
+                    "selectionName": "Colchester United U21",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 6799680,
+                    "selectionName": "Swansea U21",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210603738",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 6597943,
+                        "back_odds": [
+                            {
+                                "price": 2.5,
+                                "size": 1
+                            },
+                            {
+                                "price": 2.46,
+                                "size": 4
+                            },
+                            {
+                                "price": 2.44,
+                                "size": 10
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 2.64,
+                                "size": 29.13
+                            },
+                            {
+                                "price": 2.68,
+                                "size": 5.73
+                            },
+                            {
+                                "price": 2.7,
+                                "size": 5.42
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 6799680,
+                        "back_odds": [
+                            {
+                                "price": 2.5,
+                                "size": 1
+                            },
+                            {
+                                "price": 2.48,
+                                "size": 4.38
+                            },
+                            {
+                                "price": 2.44,
+                                "size": 6
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 2.6,
+                                "size": 17.49
+                            },
+                            {
+                                "price": 2.66,
+                                "size": 4.65
+                            },
+                            {
+                                "price": 2.7,
+                                "size": 9.04
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 4.6,
+                                "size": 23.55
+                            },
+                            {
+                                "price": 4.2,
+                                "size": 4.59
+                            },
+                            {
+                                "price": 4.1,
+                                "size": 3.75
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 5,
+                                "size": 4.9
+                            },
+                            {
+                                "price": 5.2,
+                                "size": 3
+                            },
+                            {
+                                "price": 5.3,
+                                "size": 19.67
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 84843,
+            "sport_id": 171,
+            "tournament_id": 46,
+            "start_date": "28/02/23 18:30",
+            "event_name": "Coventry City U21 Vs Birmingham U21",
+            "currently_live": 0,
+            "video_channel_id": null,
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210603377",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 6617009,
+                    "selectionName": "Coventry City U21",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 6813025,
+                    "selectionName": "Birmingham U21",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210603377",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 6617009,
+                        "back_odds": [
+                            {
+                                "price": 2.64,
+                                "size": 2.3
+                            },
+                            {
+                                "price": 2.6,
+                                "size": 39.41
+                            },
+                            {
+                                "price": 2.54,
+                                "size": 21.48
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 2.82,
+                                "size": 2.38
+                            },
+                            {
+                                "price": 2.84,
+                                "size": 2.36
+                            },
+                            {
+                                "price": 2.86,
+                                "size": 2.79
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 6813025,
+                        "back_odds": [
+                            {
+                                "price": 2.3,
+                                "size": 10
+                            },
+                            {
+                                "price": 2.24,
+                                "size": 19.34
+                            },
+                            {
+                                "price": 2.22,
+                                "size": 3.02
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 2.38,
+                                "size": 129.08
+                            },
+                            {
+                                "price": 2.5,
+                                "size": 272.82
+                            },
+                            {
+                                "price": 2.54,
+                                "size": 2.4
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 4.4,
+                                "size": 9.48
+                            },
+                            {
+                                "price": 4.3,
+                                "size": 7.41
+                            },
+                            {
+                                "price": 4.2,
+                                "size": 26.85
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 5.1,
+                                "size": 20.09
+                            },
+                            {
+                                "price": 5.3,
+                                "size": 2.79
+                            },
+                            {
+                                "price": 5.4,
+                                "size": 1.12
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 84841,
+            "sport_id": 171,
+            "tournament_id": 46,
+            "start_date": "28/02/23 19:00",
+            "event_name": "Peterborough United U21 Vs Sheff Utd U21",
+            "currently_live": 0,
+            "video_channel_id": null,
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210603558",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 47816486,
+                    "selectionName": "Peterborough United U21",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 6812038,
+                    "selectionName": "Sheff Utd U21",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210603558",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 47816486,
+                        "back_odds": [
+                            {
+                                "price": 2.78,
+                                "size": 14.27
+                            },
+                            {
+                                "price": 2.74,
+                                "size": 1
+                            },
+                            {
+                                "price": 2.7,
+                                "size": 17.87
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 2.8,
+                                "size": 4.98
+                            },
+                            {
+                                "price": 2.82,
+                                "size": 183.34
+                            },
+                            {
+                                "price": 2.92,
+                                "size": 307.64
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 6812038,
+                        "back_odds": [
+                            {
+                                "price": 2.26,
+                                "size": 2.86
+                            },
+                            {
+                                "price": 2.24,
+                                "size": 47.15
+                            },
+                            {
+                                "price": 2.22,
+                                "size": 8.71
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 2.44,
+                                "size": 46.47
+                            },
+                            {
+                                "price": 2.46,
+                                "size": 1.11
+                            },
+                            {
+                                "price": 2.5,
+                                "size": 39.06
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 4.4,
+                                "size": 26.93
+                            },
+                            {
+                                "price": 4.3,
+                                "size": 7.79
+                            },
+                            {
+                                "price": 4.2,
+                                "size": 17.55
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 5.1,
+                                "size": 1.27
+                            },
+                            {
+                                "price": 5.2,
+                                "size": 24.62
+                            },
+                            {
+                                "price": 5.5,
+                                "size": 9.28
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 84844,
+            "sport_id": 171,
+            "tournament_id": 46,
+            "start_date": "28/02/23 19:00",
+            "event_name": "Watford U21 Vs Bristol City U21",
+            "currently_live": 0,
+            "video_channel_id": null,
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210603468",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 10123520,
+                    "selectionName": "Watford U21",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 6597941,
+                    "selectionName": "Bristol City U21",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210603468",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 10123520,
+                        "back_odds": [
+                            {
+                                "price": 2.88,
+                                "size": 10
+                            },
+                            {
+                                "price": 2.82,
+                                "size": 5.5
+                            },
+                            {
+                                "price": 2.74,
+                                "size": 4.08
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 2.98,
+                                "size": 12.68
+                            },
+                            {
+                                "price": 3,
+                                "size": 195.48
+                            },
+                            {
+                                "price": 3.2,
+                                "size": 4.28
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 6597941,
+                        "back_odds": [
+                            {
+                                "price": 2.08,
+                                "size": 11.96
+                            },
+                            {
+                                "price": 1.97,
+                                "size": 31.32
+                            },
+                            {
+                                "price": 1.91,
+                                "size": 13.92
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 2.22,
+                                "size": 14.29
+                            },
+                            {
+                                "price": 2.24,
+                                "size": 6.13
+                            },
+                            {
+                                "price": 2.38,
+                                "size": 7.34
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 4.9,
+                                "size": 2.8
+                            },
+                            {
+                                "price": 4.6,
+                                "size": 6.89
+                            },
+                            {
+                                "price": 4.3,
+                                "size": 11.81
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 5.4,
+                                "size": 2.07
+                            },
+                            {
+                                "price": 5.9,
+                                "size": 2.32
+                            },
+                            {
+                                "price": 7,
+                                "size": 9.16
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 84842,
+            "sport_id": 171,
+            "tournament_id": 46,
+            "start_date": "28/02/23 19:30",
+            "event_name": "Cardiff City U21 Vs Charlton U21",
+            "currently_live": 0,
+            "video_channel_id": null,
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210603648",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 6789341,
+                    "selectionName": "Cardiff City U21",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 6808104,
+                    "selectionName": "Charlton U21",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210603648",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 6789341,
+                        "back_odds": [
+                            {
+                                "price": 1.86,
+                                "size": 14.58
+                            },
+                            {
+                                "price": 1.79,
+                                "size": 2.79
+                            },
+                            {
+                                "price": 1.78,
+                                "size": 22.03
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 1.89,
+                                "size": 4.11
+                            },
+                            {
+                                "price": 1.9,
+                                "size": 46.7
+                            },
+                            {
+                                "price": 1.92,
+                                "size": 229.53
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 6808104,
+                        "back_odds": [
+                            {
+                                "price": 3.5,
+                                "size": 7.99
+                            },
+                            {
+                                "price": 3.45,
+                                "size": 7.07
+                            },
+                            {
+                                "price": 3.4,
+                                "size": 6.47
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 3.95,
+                                "size": 6.87
+                            },
+                            {
+                                "price": 4,
+                                "size": 16.64
+                            },
+                            {
+                                "price": 4.1,
+                                "size": 8.66
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 4.8,
+                                "size": 8.91
+                            },
+                            {
+                                "price": 4.7,
+                                "size": 3.39
+                            },
+                            {
+                                "price": 4.5,
+                                "size": 1.73
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 5.3,
+                                "size": 2.22
+                            },
+                            {
+                                "price": 5.4,
+                                "size": 2.79
+                            },
+                            {
+                                "price": 5.5,
+                                "size": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 83531,
+            "sport_id": 171,
+            "tournament_id": 144,
+            "start_date": "28/02/23 19:30",
+            "event_name": "Hermannstadt Vs Universitatea Cluj",
+            "currently_live": 0,
+            "video_channel_id": "490",
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210522975",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 13144766,
+                    "selectionName": "Hermannstadt",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 2487034,
+                    "selectionName": "Universitatea Cluj",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210522975",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 13144766,
+                        "back_odds": [
+                            {
+                                "price": 2.58,
+                                "size": 3.56
+                            },
+                            {
+                                "price": 2.56,
+                                "size": 8.66
+                            },
+                            {
+                                "price": 2.54,
+                                "size": 7
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 2.68,
+                                "size": 29.4
+                            },
+                            {
+                                "price": 2.7,
+                                "size": 29.8
+                            },
+                            {
+                                "price": 2.72,
+                                "size": 53.32
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 2487034,
+                        "back_odds": [
+                            {
+                                "price": 3.35,
+                                "size": 15.92
+                            },
+                            {
+                                "price": 3.3,
+                                "size": 10
+                            },
+                            {
+                                "price": 3.25,
+                                "size": 9
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 3.5,
+                                "size": 8.78
+                            },
+                            {
+                                "price": 3.55,
+                                "size": 8
+                            },
+                            {
+                                "price": 3.6,
+                                "size": 8.55
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 3,
+                                "size": 3.56
+                            },
+                            {
+                                "price": 2.98,
+                                "size": 4
+                            },
+                            {
+                                "price": 2.96,
+                                "size": 4
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 3.2,
+                                "size": 11.84
+                            },
+                            {
+                                "price": 3.25,
+                                "size": 21.29
+                            },
+                            {
+                                "price": 3.3,
+                                "size": 14.09
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 84851,
+            "sport_id": 171,
+            "tournament_id": 336,
+            "start_date": "28/02/23 20:30",
+            "event_name": "Radnicki Nis Vs Vojvodina",
+            "currently_live": 0,
+            "video_channel_id": "293",
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210607960",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 6555084,
+                    "selectionName": "Radnicki Nis",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 2020542,
+                    "selectionName": "Vojvodina",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210607960",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 6555084,
+                        "back_odds": [
+                            {
+                                "price": 2.48,
+                                "size": 6.51
+                            },
+                            {
+                                "price": 2.46,
+                                "size": 7
+                            },
+                            {
+                                "price": 2.44,
+                                "size": 17.92
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 2.6,
+                                "size": 10
+                            },
+                            {
+                                "price": 2.62,
+                                "size": 6
+                            },
+                            {
+                                "price": 2.64,
+                                "size": 9.81
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 2020542,
+                        "back_odds": [
+                            {
+                                "price": 3.1,
+                                "size": 9.53
+                            },
+                            {
+                                "price": 3.05,
+                                "size": 10.39
+                            },
+                            {
+                                "price": 3,
+                                "size": 94.59
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 3.25,
+                                "size": 1
+                            },
+                            {
+                                "price": 3.3,
+                                "size": 6
+                            },
+                            {
+                                "price": 3.35,
+                                "size": 8.27
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 3.35,
+                                "size": 2.84
+                            },
+                            {
+                                "price": 3.3,
+                                "size": 6
+                            },
+                            {
+                                "price": 3.25,
+                                "size": 5.02
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 3.5,
+                                "size": 36
+                            },
+                            {
+                                "price": 3.55,
+                                "size": 6
+                            },
+                            {
+                                "price": 3.6,
+                                "size": 6
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 85060,
+            "sport_id": 171,
+            "tournament_id": 437,
+            "start_date": "28/02/23 20:30",
+            "event_name": "Dortmund U19 Vs Paris St-G U19",
+            "currently_live": 0,
+            "video_channel_id": null,
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210633950",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 6267902,
+                    "selectionName": "Dortmund U19",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 6569319,
+                    "selectionName": "Paris St-G U19",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210633950",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 6267902,
+                        "back_odds": [
+                            {
+                                "price": 3.5,
+                                "size": 8.31
+                            },
+                            {
+                                "price": 3.45,
+                                "size": 4
+                            },
+                            {
+                                "price": 3.4,
+                                "size": 5
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 3.75,
+                                "size": 7.67
+                            },
+                            {
+                                "price": 3.8,
+                                "size": 3
+                            },
+                            {
+                                "price": 3.85,
+                                "size": 5.47
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 6569319,
+                        "back_odds": [
+                            {
+                                "price": 2.02,
+                                "size": 13.02
+                            },
+                            {
+                                "price": 1.97,
+                                "size": 5.88
+                            },
+                            {
+                                "price": 1.95,
+                                "size": 4
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 2.06,
+                                "size": 9.62
+                            },
+                            {
+                                "price": 2.08,
+                                "size": 7
+                            },
+                            {
+                                "price": 2.1,
+                                "size": 15
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 4.2,
+                                "size": 4
+                            },
+                            {
+                                "price": 4.1,
+                                "size": 5
+                            },
+                            {
+                                "price": 4,
+                                "size": 9.41
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 4.6,
+                                "size": 5.72
+                            },
+                            {
+                                "price": 4.7,
+                                "size": 2
+                            },
+                            {
+                                "price": 4.8,
+                                "size": 2.36
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 85022,
+            "sport_id": 171,
+            "tournament_id": 546,
+            "start_date": "28/02/23 20:30",
+            "event_name": "Ceramica Cleopatra Vs National Bank",
+            "currently_live": 0,
+            "video_channel_id": "289",
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210637079",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 37456793,
+                    "selectionName": "Ceramica Cleopatra",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 10492935,
+                    "selectionName": "National Bank",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210637079",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 37456793,
+                        "back_odds": [
+                            {
+                                "price": 2.2,
+                                "size": 26.18
+                            },
+                            {
+                                "price": 2.18,
+                                "size": 22
+                            },
+                            {
+                                "price": 2.16,
+                                "size": 24
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 2.28,
+                                "size": 175.7
+                            },
+                            {
+                                "price": 2.3,
+                                "size": 28.11
+                            },
+                            {
+                                "price": 2.32,
+                                "size": 121.59
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 10492935,
+                        "back_odds": [
+                            {
+                                "price": 4.1,
+                                "size": 20.5
+                            },
+                            {
+                                "price": 4,
+                                "size": 10
+                            },
+                            {
+                                "price": 3.95,
+                                "size": 11.38
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 4.3,
+                                "size": 16
+                            },
+                            {
+                                "price": 4.4,
+                                "size": 14
+                            },
+                            {
+                                "price": 4.5,
+                                "size": 26.8
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 3.1,
+                                "size": 28.49
+                            },
+                            {
+                                "price": 3.05,
+                                "size": 28.69
+                            },
+                            {
+                                "price": 3,
+                                "size": 29.93
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 3.3,
+                                "size": 18.79
+                            },
+                            {
+                                "price": 3.35,
+                                "size": 31.19
+                            },
+                            {
+                                "price": 3.4,
+                                "size": 20.78
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 83621,
+            "sport_id": 171,
+            "tournament_id": 554,
+            "start_date": "28/02/23 21:30",
+            "event_name": "Slaven Belupo Vs Rudes",
+            "currently_live": 0,
+            "video_channel_id": null,
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210427154",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 170923,
+                    "selectionName": "Slaven Belupo",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 4940512,
+                    "selectionName": "Rudes",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210427154",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 170923,
+                        "back_odds": [
+                            {
+                                "price": 1.5,
+                                "size": 2.72
+                            },
+                            {
+                                "price": 1.44,
+                                "size": 1.07
+                            },
+                            {
+                                "price": 1.43,
+                                "size": 61.83
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 1.52,
+                                "size": 3.73
+                            },
+                            {
+                                "price": 1.56,
+                                "size": 2.47
+                            },
+                            {
+                                "price": 1.57,
+                                "size": 15.85
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 4940512,
+                        "back_odds": [
+                            {
+                                "price": 6.8,
+                                "size": 8.95
+                            },
+                            {
+                                "price": 6.6,
+                                "size": 2
+                            },
+                            {
+                                "price": 6.4,
+                                "size": 1.16
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 7.8,
+                                "size": 2.42
+                            },
+                            {
+                                "price": 8.8,
+                                "size": 19.03
+                            },
+                            {
+                                "price": 9,
+                                "size": 1.15
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 4.7,
+                                "size": 2.77
+                            },
+                            {
+                                "price": 4.3,
+                                "size": 3.71
+                            },
+                            {
+                                "price": 4,
+                                "size": 1.29
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 5.9,
+                                "size": 2.41
+                            },
+                            {
+                                "price": 6,
+                                "size": 2
+                            },
+                            {
+                                "price": 6.6,
+                                "size": 24.32
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 83529,
+            "sport_id": 171,
+            "tournament_id": 144,
+            "start_date": "28/02/23 21:30",
+            "event_name": "Chindia Targoviste Vs FC U Craiova 1948",
+            "currently_live": 0,
+            "video_channel_id": "492",
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210523065",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 5823182,
+                    "selectionName": "Chindia Targoviste",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 20135214,
+                    "selectionName": "FC U Craiova 1948",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210523065",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 5823182,
+                        "back_odds": [
+                            {
+                                "price": 3.1,
+                                "size": 14.37
+                            },
+                            {
+                                "price": 3.05,
+                                "size": 22.79
+                            },
+                            {
+                                "price": 3,
+                                "size": 6.48
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 3.2,
+                                "size": 12.65
+                            },
+                            {
+                                "price": 3.25,
+                                "size": 9.75
+                            },
+                            {
+                                "price": 3.3,
+                                "size": 93.76
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 20135214,
+                        "back_odds": [
+                            {
+                                "price": 2.66,
+                                "size": 7.9
+                            },
+                            {
+                                "price": 2.62,
+                                "size": 20.57
+                            },
+                            {
+                                "price": 2.6,
+                                "size": 10.91
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 2.72,
+                                "size": 7
+                            },
+                            {
+                                "price": 2.74,
+                                "size": 7
+                            },
+                            {
+                                "price": 2.76,
+                                "size": 6
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 3.15,
+                                "size": 14.93
+                            },
+                            {
+                                "price": 3.1,
+                                "size": 24.06
+                            },
+                            {
+                                "price": 3.05,
+                                "size": 70.46
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 3.25,
+                                "size": 10.13
+                            },
+                            {
+                                "price": 3.3,
+                                "size": 7.74
+                            },
+                            {
+                                "price": 3.35,
+                                "size": 13.56
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 83624,
+            "sport_id": 171,
+            "tournament_id": 501,
+            "start_date": "28/02/23 22:00",
+            "event_name": "Pogon Siedlce Vs Gornik Leczna",
+            "currently_live": 0,
+            "video_channel_id": "517",
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210422736",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 7186877,
+                    "selectionName": "Pogon Siedlce",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 502299,
+                    "selectionName": "Gornik Leczna",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210422736",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 7186877,
+                        "back_odds": [
+                            {
+                                "price": 3.8,
+                                "size": 2.8
+                            },
+                            {
+                                "price": 3.75,
+                                "size": 6
+                            },
+                            {
+                                "price": 3.6,
+                                "size": 13.48
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 4.1,
+                                "size": 2
+                            },
+                            {
+                                "price": 4.2,
+                                "size": 10.66
+                            },
+                            {
+                                "price": 4.3,
+                                "size": 10.53
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 502299,
+                        "back_odds": [
+                            {
+                                "price": 2.06,
+                                "size": 3.39
+                            },
+                            {
+                                "price": 2.04,
+                                "size": 46.99
+                            },
+                            {
+                                "price": 2,
+                                "size": 6
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 2.12,
+                                "size": 11
+                            },
+                            {
+                                "price": 2.18,
+                                "size": 13.19
+                            },
+                            {
+                                "price": 2.2,
+                                "size": 16.95
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 3.65,
+                                "size": 4.89
+                            },
+                            {
+                                "price": 3.6,
+                                "size": 11.81
+                            },
+                            {
+                                "price": 3.55,
+                                "size": 6
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 3.95,
+                                "size": 9
+                            },
+                            {
+                                "price": 4,
+                                "size": 31.75
+                            },
+                            {
+                                "price": 4.2,
+                                "size": 13.25
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 84953,
+            "sport_id": 171,
+            "tournament_id": 336,
+            "start_date": "28/02/23 22:30",
+            "event_name": "Radnik Surdulica Vs Vozdovac",
+            "currently_live": 0,
+            "video_channel_id": "294",
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210620025",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 8860947,
+                    "selectionName": "Radnik Surdulica",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 2020583,
+                    "selectionName": "Vozdovac",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210620025",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 8860947,
+                        "back_odds": [
+                            {
+                                "price": 2.14,
+                                "size": 4.54
+                            },
+                            {
+                                "price": 2.1,
+                                "size": 12
+                            },
+                            {
+                                "price": 2.08,
+                                "size": 32.23
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 2.2,
+                                "size": 9
+                            },
+                            {
+                                "price": 2.22,
+                                "size": 10
+                            },
+                            {
+                                "price": 2.24,
+                                "size": 9.66
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 2020583,
+                        "back_odds": [
+                            {
+                                "price": 3.75,
+                                "size": 5
+                            },
+                            {
+                                "price": 3.7,
+                                "size": 11.49
+                            },
+                            {
+                                "price": 3.65,
+                                "size": 16.86
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 4,
+                                "size": 10
+                            },
+                            {
+                                "price": 4.1,
+                                "size": 9
+                            },
+                            {
+                                "price": 4.2,
+                                "size": 2.31
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 3.45,
+                                "size": 6
+                            },
+                            {
+                                "price": 3.4,
+                                "size": 11.34
+                            },
+                            {
+                                "price": 3.35,
+                                "size": 12.91
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 3.7,
+                                "size": 15.4
+                            },
+                            {
+                                "price": 3.75,
+                                "size": 5
+                            },
+                            {
+                                "price": 3.8,
+                                "size": 7.55
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 84966,
+            "sport_id": 171,
+            "tournament_id": 358,
+            "start_date": "28/02/23 22:30",
+            "event_name": "Eyupspor Vs Bodrumspor",
+            "currently_live": 0,
+            "video_channel_id": "295",
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210621984",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 4202656,
+                    "selectionName": "Eyupspor",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 42091241,
+                    "selectionName": "Bodrumspor",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210621984",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 4202656,
+                        "back_odds": [
+                            {
+                                "price": 2.02,
+                                "size": 116.03
+                            },
+                            {
+                                "price": 2,
+                                "size": 108.61
+                            },
+                            {
+                                "price": 1.99,
+                                "size": 129
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 2.1,
+                                "size": 35.46
+                            },
+                            {
+                                "price": 2.12,
+                                "size": 13.17
+                            },
+                            {
+                                "price": 2.14,
+                                "size": 63.38
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 42091241,
+                        "back_odds": [
+                            {
+                                "price": 4.4,
+                                "size": 5
+                            },
+                            {
+                                "price": 4.2,
+                                "size": 3.07
+                            },
+                            {
+                                "price": 4.1,
+                                "size": 29.54
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 4.5,
+                                "size": 7.95
+                            },
+                            {
+                                "price": 4.6,
+                                "size": 7
+                            },
+                            {
+                                "price": 4.7,
+                                "size": 20.62
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 3.4,
+                                "size": 6
+                            },
+                            {
+                                "price": 3.35,
+                                "size": 7.37
+                            },
+                            {
+                                "price": 3.3,
+                                "size": 36.62
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 3.65,
+                                "size": 16.19
+                            },
+                            {
+                                "price": 3.7,
+                                "size": 24.25
+                            },
+                            {
+                                "price": 3.75,
+                                "size": 8.14
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 85040,
+            "sport_id": 171,
+            "tournament_id": 355,
+            "start_date": "28/02/23 22:45",
+            "event_name": "Moghreb Tetouan Vs Raja Casablanca",
+            "currently_live": 0,
+            "video_channel_id": "373",
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210637350",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 37817373,
+                    "selectionName": "Moghreb Tetouan",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 6356893,
+                    "selectionName": "Raja Casablanca",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210637350",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 37817373,
+                        "back_odds": [
+                            {
+                                "price": 5.5,
+                                "size": 3.11
+                            },
+                            {
+                                "price": 5.4,
+                                "size": 3.17
+                            },
+                            {
+                                "price": 5.3,
+                                "size": 4.63
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 6.2,
+                                "size": 4
+                            },
+                            {
+                                "price": 6.4,
+                                "size": 4
+                            },
+                            {
+                                "price": 6.6,
+                                "size": 4.9
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 6356893,
+                        "back_odds": [
+                            {
+                                "price": 1.83,
+                                "size": 16.71
+                            },
+                            {
+                                "price": 1.82,
+                                "size": 3.73
+                            },
+                            {
+                                "price": 1.8,
+                                "size": 19.22
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 1.9,
+                                "size": 9
+                            },
+                            {
+                                "price": 1.91,
+                                "size": 5
+                            },
+                            {
+                                "price": 1.92,
+                                "size": 5
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 3.35,
+                                "size": 5
+                            },
+                            {
+                                "price": 3.3,
+                                "size": 6
+                            },
+                            {
+                                "price": 3.25,
+                                "size": 6
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 3.4,
+                                "size": 5.3
+                            },
+                            {
+                                "price": 3.45,
+                                "size": 26.21
+                            },
+                            {
+                                "price": 3.7,
+                                "size": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 83626,
+            "sport_id": 171,
+            "tournament_id": 301,
+            "start_date": "28/02/23 23:00",
+            "event_name": "Aarhus Fremad Vs FC Nordsjaelland",
+            "currently_live": 0,
+            "video_channel_id": "380",
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210083430",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 895064,
+                    "selectionName": "Aarhus Fremad",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 466299,
+                    "selectionName": "FC Nordsjaelland",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210083430",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 895064,
+                        "back_odds": [
+                            {
+                                "price": 8.8,
+                                "size": 24.53
+                            },
+                            {
+                                "price": 8.6,
+                                "size": 4
+                            },
+                            {
+                                "price": 8.4,
+                                "size": 5
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 9,
+                                "size": 13.08
+                            },
+                            {
+                                "price": 9.6,
+                                "size": 3.1
+                            },
+                            {
+                                "price": 9.8,
+                                "size": 3
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 466299,
+                        "back_odds": [
+                            {
+                                "price": 1.37,
+                                "size": 57.4
+                            },
+                            {
+                                "price": 1.36,
+                                "size": 106.47
+                            },
+                            {
+                                "price": 1.35,
+                                "size": 118.91
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 1.39,
+                                "size": 156.6
+                            },
+                            {
+                                "price": 1.4,
+                                "size": 206.91
+                            },
+                            {
+                                "price": 1.41,
+                                "size": 57.63
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 5.9,
+                                "size": 54.81
+                            },
+                            {
+                                "price": 5.8,
+                                "size": 3.8
+                            },
+                            {
+                                "price": 5.7,
+                                "size": 5.17
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 6.4,
+                                "size": 24.29
+                            },
+                            {
+                                "price": 6.6,
+                                "size": 6
+                            },
+                            {
+                                "price": 6.8,
+                                "size": 16
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 66895,
+            "sport_id": 171,
+            "tournament_id": 618,
+            "start_date": "02/03/23 01:15",
+            "event_name": "Man Utd Vs West Ham",
+            "currently_live": 0,
+            "video_channel_id": null,
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.209487821",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 48351,
+                    "selectionName": "Man Utd",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 48756,
+                    "selectionName": "West Ham",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.209487821",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 48351,
+                        "back_odds": [
+                            {
+                                "price": 1.67,
+                                "size": 99.49
+                            },
+                            {
+                                "price": 1.66,
+                                "size": 126.02
+                            },
+                            {
+                                "price": 1.65,
+                                "size": 26.78
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 1.7,
+                                "size": 113.48
+                            },
+                            {
+                                "price": 1.71,
+                                "size": 193.75
+                            },
+                            {
+                                "price": 1.72,
+                                "size": 58.38
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 48756,
+                        "back_odds": [
+                            {
+                                "price": 5.7,
+                                "size": 10.46
+                            },
+                            {
+                                "price": 5.6,
+                                "size": 44.77
+                            },
+                            {
+                                "price": 5.5,
+                                "size": 40.84
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 6,
+                                "size": 6
+                            },
+                            {
+                                "price": 6.2,
+                                "size": 32.73
+                            },
+                            {
+                                "price": 6.4,
+                                "size": 89.98
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 4.1,
+                                "size": 72.36
+                            },
+                            {
+                                "price": 4,
+                                "size": 61.51
+                            },
+                            {
+                                "price": 3.95,
+                                "size": 90.01
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 4.3,
+                                "size": 61.57
+                            },
+                            {
+                                "price": 4.4,
+                                "size": 504.83
+                            },
+                            {
+                                "price": 4.5,
+                                "size": 97.92
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 83534,
+            "sport_id": 171,
+            "tournament_id": 144,
+            "start_date": "02/03/23 23:30",
+            "event_name": "FCSB Vs ACS Petrolul 52",
+            "currently_live": 0,
+            "video_channel_id": null,
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210523605",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 12819357,
+                    "selectionName": "FCSB",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 14299496,
+                    "selectionName": "ACS Petrolul 52",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210523605",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 12819357,
+                        "back_odds": [
+                            {
+                                "price": 1.35,
+                                "size": 46.47
+                            },
+                            {
+                                "price": 1.34,
+                                "size": 90.94
+                            },
+                            {
+                                "price": 1.33,
+                                "size": 23.31
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 1.49,
+                                "size": 44.47
+                            },
+                            {
+                                "price": 1.52,
+                                "size": 108.96
+                            },
+                            {
+                                "price": 1.53,
+                                "size": 87.84
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 14299496,
+                        "back_odds": [
+                            {
+                                "price": 10,
+                                "size": 7.81
+                            },
+                            {
+                                "price": 9.2,
+                                "size": 2
+                            },
+                            {
+                                "price": 6,
+                                "size": 11.4
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 12.5,
+                                "size": 7.95
+                            },
+                            {
+                                "price": 13,
+                                "size": 3.87
+                            },
+                            {
+                                "price": 17.5,
+                                "size": 5.71
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 4.4,
+                                "size": 15.06
+                            },
+                            {
+                                "price": 4.2,
+                                "size": 4.24
+                            },
+                            {
+                                "price": 3.8,
+                                "size": 26.15
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 5.6,
+                                "size": 12.21
+                            },
+                            {
+                                "price": 5.9,
+                                "size": 5.95
+                            },
+                            {
+                                "price": 6.4,
+                                "size": 9.8
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": 84878,
+            "sport_id": 171,
+            "tournament_id": 286,
+            "start_date": "12/03/23 19:30",
+            "event_name": "US Cremonese Vs Fiorentina",
+            "currently_live": 0,
+            "video_channel_id": null,
+            "market_status": "OPEN",
+            "freeze_odds_class": "freeze-odds",
+            "market_id": "1.210564051",
+            "selection_list": [
+                {
+                    "handicap": 0,
+                    "selectionId": 10513040,
+                    "selectionName": "US Cremonese",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 676467,
+                    "selectionName": "Fiorentina",
+                    "selectionStatus": "ACTIVE"
+                },
+                {
+                    "handicap": 0,
+                    "selectionId": 58805,
+                    "selectionName": "The Draw",
+                    "selectionStatus": "ACTIVE"
+                }
+            ],
+            "market_type": "matchodds",
+            "market_odds": {
+                "market_id": "1.210564051",
+                "status": "OPEN",
+                "betDelay": 0,
+                "inplay": false,
+                "selections": [
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 10513040,
+                        "back_odds": [
+                            {
+                                "price": 4.6,
+                                "size": 6.74
+                            },
+                            {
+                                "price": 4.1,
+                                "size": 12.26
+                            },
+                            {
+                                "price": 3.75,
+                                "size": 8.54
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 5.9,
+                                "size": 5.25
+                            },
+                            {
+                                "price": 6.8,
+                                "size": 12.03
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 676467,
+                        "back_odds": [
+                            {
+                                "price": 1.78,
+                                "size": 54.9
+                            },
+                            {
+                                "price": 1.67,
+                                "size": 18.55
+                            },
+                            {
+                                "price": 1.04,
+                                "size": 2638.18
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 1.99,
+                                "size": 18.5
+                            },
+                            {
+                                "price": 2.04,
+                                "size": 15.2
+                            },
+                            {
+                                "price": 2.16,
+                                "size": 23.27
+                            }
+                        ]
+                    },
+                    {
+                        "status": "ACTIVE",
+                        "selection_id": 58805,
+                        "back_odds": [
+                            {
+                                "price": 3.45,
+                                "size": 23.72
+                            },
+                            {
+                                "price": 3,
+                                "size": 10.33
+                            },
+                            {
+                                "price": 2,
+                                "size": 2.92
+                            }
+                        ],
+                        "lay_odds": [
+                            {
+                                "price": 4.3,
+                                "size": 7.45
+                            },
+                            {
+                                "price": 4.6,
+                                "size": 6.74
+                            },
+                            {
+                                "price": 5.2,
+                                "size": 9.67
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "session": "63fdb3d4d54af-167757102880029-MzYxMDk="
+}

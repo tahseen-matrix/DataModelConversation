@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="grey">#878787</color>
+    <color name="green">#C3D10C</color>
+    <color name="view">#BFF1F0EF</color>
+    <color name="light">#BFC8C8C8</color>
+    <color name="darkgrey">#222222</color>
+    <color name="white_transparent">#00919090</color>
+    <color name="blue">#096767</color>
+    <color name="left_b_trans">#BF222222</color>
+
+    <color name="red">#BA0202</color>
+    <color name="loginbtn">#FCE614</color>
+    <color name="loginbtn2">#F3C818</color>
+    <color name="redcolorview">#E84C4D</color>
+    <color name="greenheader">#257B23</color>
+    <color name="buttonlightpurple">#A7D8FD</color>
+    <color name="lightpink">#F9C9D4</color>
+
+    <color name="mostpopularview">#CC5F36</color>
+    <color name="yellobadge">#F8B144</color>
+    <color name="c1">#428AD2</color>
+    <color name="bcolor">#E9ECEF</color>
+    <color name="color">#F31331</color>
+    <color name="color2">#4CABC2</color>
+    <color name="color3">#45B387</color>
+    <color name="color4">#8241A8</color>
+    <color name="color5">#D9B840</color>
+    <color name="border_green">#19751D</color>
+    <color name="fragmentbgcolor">#EDEDED</color>
+    <color name="stakes_color">#46A84A</color>
+    <color name="light_grey">#F8F5F5</color>
+    <color name="line_ezugi">#91ADC2</color>
+    <color name="blue_light">#307DCA</color>
+    <color name="dark_blue">#084E83</color>
+</resources>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ro"
+    android:background="@color/buttonlightpurple"
+    android:paddingTop="1.5dp"
+    android:paddingHorizontal="1.5dp"
+    android:paddingBottom="@dimen/_5sdp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="@dimen/_5sdp"
+
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/odds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="odds"
+            android:textAllCaps="true"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_9ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvMinus"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="-"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintStart_toStartOf="@id/odds"
+            app:layout_constraintTop_toBottomOf="@id/odds" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tvOddsValue"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="0dp"
+            android:background="@color/bcolor"
+            android:hint="Min:10, Max:500"
+            android:padding="@dimen/_4sdp"
+            android:textAllCaps="true"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:text="3.9"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11ssp"
+            app:layout_constraintBottom_toBottomOf="@id/tvMinus"
+            app:layout_constraintStart_toEndOf="@id/tvMinus"
+            app:layout_constraintTop_toTopOf="@id/tvMinus" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvPlus"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:text="+"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintBottom_toBottomOf="@id/tvMinus"
+            app:layout_constraintStart_toEndOf="@id/tvOddsValue"
+            app:layout_constraintTop_toTopOf="@id/tvMinus" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/minmax"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:hint="Min:10, Max:500"
+            android:padding="@dimen/_4sdp"
+            android:textAllCaps="true"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_8ssp"
+            app:layout_constraintBottom_toBottomOf="@id/tvMinus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvPlus"
+
+            app:layout_constraintTop_toTopOf="@id/tvPlus" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="cancel"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:textAllCaps="false"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_8ssp"
+            app:layout_constraintTop_toBottomOf="@id/minmax"
+            app:layout_constraintEnd_toStartOf="@+id/guideline9"
+            app:layout_constraintStart_toStartOf="@id/tvMinus"
+    />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/tvPlaceBet"
+            android:layout_width="0dp"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:enabled="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_8ssp"
+            app:layout_constraintBottom_toBottomOf="@id/btnCancel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/guideline9"
+            app:layout_constraintTop_toTopOf="@id/btnCancel" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

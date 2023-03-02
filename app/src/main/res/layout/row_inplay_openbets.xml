@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <data>
+
+        </data>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inplay"
+            android:background="@color/light_grey">
+
+                <View
+                    android:id="@+id/header"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:background="@color/greenheader" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_13ssp"
+                    android:text="In Play"
+                    android:gravity="center"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    app:layout_constraintTop_toTopOf="@id/header"
+                    app:layout_constraintBottom_toBottomOf="@id/header"
+                    app:layout_constraintStart_toStartOf="@id/header" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/openbets"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10ssp"
+                    android:text="Open Be"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    app:layout_constraintEnd_toStartOf="@id/badge"
+                    app:layout_constraintTop_toTopOf="@id/header"
+                    app:layout_constraintBottom_toBottomOf="@id/header" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/badge"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="@dimen/_8ssp"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:backgroundTint="@color/yellobadge"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="@id/header" />
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvChildInplay"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/row_inplay_child"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginHorizontal="@dimen/_3sdp"
+                    app:layout_constraintStart_toStartOf="@id/tvHeader"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/header" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+
