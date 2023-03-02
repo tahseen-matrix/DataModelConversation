@@ -14,10 +14,11 @@ class MainActivity : AppCompatActivity(), AdapterBothMatch.OnItemClickListener {
     private val binding: ActivityMainBinding by lazy {
         ActivityMainBinding.inflate(layoutInflater)
     }
-    var itemList = arrayOf(0, 2)
 
     private var itemsArrayList: MutableList<EventNewModel>? = ArrayList()
     private var mostPopularList: MutableList<EventNewModel>? = ArrayList()
+    private var itemList: MutableList<Int>? = ArrayList()
+
     private val inPlayCricket: MutableList<EventsData> = mutableListOf()
     private val inPlayTennis: MutableList<EventsData> = mutableListOf()
     private val inPlayFootball: MutableList<EventsData> = mutableListOf()
@@ -30,6 +31,9 @@ class MainActivity : AppCompatActivity(), AdapterBothMatch.OnItemClickListener {
 
     private val backOdd: MutableList<BackOdd> = mutableListOf()
     private val layOdd: MutableList<LayOdd> = mutableListOf()
+
+    val adapterBothMatch: AdapterBothMatch =  AdapterBothMatch(true,  ArrayList() ,
+    ArrayList(), ArrayList(), this)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
@@ -54,15 +58,24 @@ class MainActivity : AppCompatActivity(), AdapterBothMatch.OnItemClickListener {
             selectionMainList.clear()
             backOdd.clear()
             layOdd.clear()
-            socketRes.message?.BF?.SL.let {
-                it?.forEach {
+            socketRes.message!!.BF?.SL?.forEach { it ->
+                selectionMainList.add(Selection(it?.BO as List<BackOdd>, it.LO as List<LayOdd>, it.I, "ACTIVE"))
+            }
 
+            Log.d("Tag", selectionMainList.toString())
+            for (i in inPlayFootball.indices){
+                if (inPlayFootball[i].id == socketRes.MI) {
+                    Log.d("DATA", selectionMainList[i].toString())
+                    adapterBothMatch.notifyItemChanged(i)
                 }
             }
 
         }
 
+        binding.rvBothGames.adapter = adapterBothMatch
+        adapterBothMatch.notifyDataSetChanged()
     }
+
     private fun setData(market: EventRes) {
         if (market != null) {
             for (i in market!!.events_data.indices) {
@@ -101,10 +114,11 @@ class MainActivity : AppCompatActivity(), AdapterBothMatch.OnItemClickListener {
             if (footballData.size > 0) {
                 mostPopularList!!.add(EventNewModel("Football", footballData.toMutableList()))
             }
+            itemList?.add(0)
+            itemList?.add(2)
 
+            adapterBothMatch.updateAdapter(itemList!!, itemsArrayList!!, mostPopularList!!)
 
-            binding.rvBothGames.adapter = AdapterBothMatch(true, itemList,
-                itemsArrayList!!, mostPopularList!!, this)
 
         }
     }

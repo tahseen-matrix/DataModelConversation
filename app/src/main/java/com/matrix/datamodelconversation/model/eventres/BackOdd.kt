@@ -1,6 +1,7 @@
 package com.matrix.datamodelconversation.model.eventres
 
 data class BackOdd(
-    val price: Double?,
-    val size: Double?
+    val price: Any?,
+    val size: Any?,
+    val sport:Any?
 )

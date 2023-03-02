@@ -11,7 +11,7 @@ import com.matrix.datamodelconversation.databinding.RowMostPopularHeaderBinding
 import com.matrix.datamodelconversation.model.EventNewModel
 
 
-class AdapterBothMatch(var isLeftRight:Boolean, var itemList: Array<Int>, var mItems: MutableList<EventNewModel>, var mostList: MutableList<EventNewModel>, onItemClickListener: OnItemClickListener) :
+class AdapterBothMatch(var isLeftRight:Boolean, var itemList: MutableList<Int>, var mItems: MutableList<EventNewModel>, var mostList: MutableList<EventNewModel>, onItemClickListener: OnItemClickListener) :
     RecyclerView.Adapter<AdapterBothMatch.MyViewHolder>(),
     AdapterChildInPlay.OnItemClickListener {
 
@@ -31,6 +31,16 @@ class AdapterBothMatch(var isLeftRight:Boolean, var itemList: Array<Int>, var mI
         this.mOnItemClickListener = onItemClickListener
     }
 
+    fun updateAdapter(newItemList: MutableList<Int>, newMItems: MutableList<EventNewModel>, newMostList: MutableList<EventNewModel>){
+        itemList.clear()
+        mItems.clear()
+        mostList.clear()
+        itemList.addAll(newItemList)
+        mItems.addAll(newMItems)
+        mostList.addAll(newMostList)
+        notifyDataSetChanged()
+
+    }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         context = parent.context
 

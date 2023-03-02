@@ -1,7 +1,7 @@
 package com.matrix.datamodelconversation.model.socketres
 
 data class BO(
-    val I: Int?,
     val O: Double?,
+    val I: Int?,
     val S: Int?
 )

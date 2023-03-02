@@ -4,6 +4,6 @@ data class MarketOdds(
     val betDelay: Int?,
     val inplay: Boolean?,
     val market_id: String?,
-    val selections: List<Selection?>?,
+    var selections: MutableList<Selection?>?,
     val status: String?
 )
