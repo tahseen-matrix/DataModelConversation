@@ -27,13 +27,14 @@ class MainActivity : AppCompatActivity(), AdapterBothMatch.OnItemClickListener {
     private val tennisData: MutableList<EventsData> = mutableListOf()
     private val footballData: MutableList<EventsData> = mutableListOf()
 
-    private val selectionMainList: MutableList<Selection> = mutableListOf()
+    private val selectionMainList: MutableList<Selection?> = mutableListOf()
 
     private val backOdd: MutableList<BackOdd> = mutableListOf()
     private val layOdd: MutableList<LayOdd> = mutableListOf()
 
-    val adapterBothMatch: AdapterBothMatch =  AdapterBothMatch(true,  ArrayList() ,
-    ArrayList(), ArrayList(), this)
+    val adapterBothMatch: AdapterBothMatch = AdapterBothMatch(true, ArrayList(),
+        ArrayList(), ArrayList(), this)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
@@ -59,15 +60,23 @@ class MainActivity : AppCompatActivity(), AdapterBothMatch.OnItemClickListener {
             backOdd.clear()
             layOdd.clear()
             socketRes.message!!.BF?.SL?.forEach { it ->
-                selectionMainList.add(Selection(it?.BO as List<BackOdd>, it.LO as List<LayOdd>, it.I, "ACTIVE"))
+                selectionMainList.add(Selection(it?.BO as List<BackOdd>,
+                    it.LO as List<LayOdd>,
+                    it.I,
+                    "ACTIVE"))
             }
 
             Log.d("Tag", selectionMainList.toString())
-            for (i in inPlayFootball.indices){
-                if (inPlayFootball[i].id == socketRes.MI) {
-                    Log.d("DATA", selectionMainList[i].toString())
-                    adapterBothMatch.notifyItemChanged(i)
+            for (i in inPlayFootball.indices) if (inPlayFootball[i].id == socketRes.MI) {
+                val selection: MutableList<Selection?>? = selectionMainList
+                for (j in selection!!.indices) {
+                    inPlayFootball[i].market_odds?.selections?.set(j, selection[j])
                 }
+
+                Log.d("TAG",
+                    " ${inPlayFootball[i].market_odds} \n ${
+                        inPlayFootball[i].market_odds?.selections?.toString().toString()
+                    }")
             }
 
         }
