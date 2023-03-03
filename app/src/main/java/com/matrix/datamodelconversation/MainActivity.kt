@@ -67,16 +67,19 @@ class MainActivity : AppCompatActivity(), AdapterBothMatch.OnItemClickListener {
                     "ACTIVE"))
             }
 
-            Log.d("Tag", selectionMainList.toString())
+            Log.d("Tag", "socket $selectionMainList")
 
             for (i in market.events_data.indices){
                 if ( market.events_data[i].id == socketRes.MI){
+                    Log.d("Tag", "response ${market.events_data[i].market_odds?.selections}")
                     if (market.events_data[i].market_odds?.selections == selectionMainList){
                         Log.i("TAG", "SAME ARRAY LIST")
-                        //HERE UPDATE THE DATA
                     }
                     else{
-                        Log.i("TAG", "DIFFERENT ARRAY LIST")
+                        //HERE UPDATE THE DATA
+                        Log.i("TAG", "Different ARRAY LIST")
+                        market.events_data[i].market_odds?.selections = selectionMainList
+                        adapterBothMatch.notifyDataSetChanged()
                     }
 
                 }
