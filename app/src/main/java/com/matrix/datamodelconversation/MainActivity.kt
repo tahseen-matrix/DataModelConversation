@@ -1,5 +1,6 @@
 package com.matrix.datamodelconversation
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -29,12 +30,11 @@ class MainActivity : AppCompatActivity(), AdapterBothMatch.OnItemClickListener {
 
     private val selectionMainList: MutableList<Selection?> = mutableListOf()
 
-    private val backOdd: MutableList<BackOdd> = mutableListOf()
-    private val layOdd: MutableList<LayOdd> = mutableListOf()
 
     val adapterBothMatch: AdapterBothMatch = AdapterBothMatch(true, ArrayList(),
         ArrayList(), ArrayList(), this)
 
+    @SuppressLint("NotifyDataSetChanged")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
@@ -57,27 +57,31 @@ class MainActivity : AppCompatActivity(), AdapterBothMatch.OnItemClickListener {
 
         binding.connectBtn.setOnClickListener {
             selectionMainList.clear()
-            backOdd.clear()
-            layOdd.clear()
             socketRes.message!!.BF?.SL?.forEach { it ->
-                selectionMainList.add(Selection(it?.BO as List<BackOdd>,
-                    it.LO as List<LayOdd>,
-                    it.I,
+               val bo =it?.BO?.map { BackOdd(it?.O, it?.S,it?.I) }
+               val lo =it?.LO?.map { LayOdd(it?.O, it?.S, it?.I) }
+
+                selectionMainList.add(Selection(bo,
+                  lo,
+                    it?.I,
                     "ACTIVE"))
             }
 
             Log.d("Tag", selectionMainList.toString())
-            for (i in inPlayFootball.indices) if (inPlayFootball[i].id == socketRes.MI) {
-                val selection: MutableList<Selection?>? = selectionMainList
-                for (j in selection!!.indices) {
-                    inPlayFootball[i].market_odds?.selections?.set(j, selection[j])
-                }
 
-                Log.d("TAG",
-                    " ${inPlayFootball[i].market_odds} \n ${
-                        inPlayFootball[i].market_odds?.selections?.toString().toString()
-                    }")
+            for (i in market.events_data.indices){
+                if ( market.events_data[i].id == socketRes.MI){
+                    if (market.events_data[i].market_odds?.selections == selectionMainList){
+                        Log.i("TAG", "SAME ARRAY LIST")
+                        //HERE UPDATE THE DATA
+                    }
+                    else{
+                        Log.i("TAG", "DIFFERENT ARRAY LIST")
+                    }
+
+                }
             }
+
 
         }
 
@@ -86,50 +90,56 @@ class MainActivity : AppCompatActivity(), AdapterBothMatch.OnItemClickListener {
     }
 
     private fun setData(market: EventRes) {
-        if (market != null) {
-            for (i in market!!.events_data.indices) {
-                if (market!!.events_data[i].sport_id == AppConstants.SportType.CRICKET && market!!.events_data[i].currently_live == 1) {
-                    inPlayCricket.add(market!!.events_data[i])
-                } else if (market!!.events_data[i].sport_id == AppConstants.SportType.FOOTBALL && market!!.events_data[i].currently_live == 1) {
-                    inPlayFootball.add(market!!.events_data[i])
-                } else if (market!!.events_data[i].sport_id == AppConstants.SportType.TENNIS && market!!.events_data[i].currently_live == 1) {
-                    inPlayTennis.add(market!!.events_data[i])
-                } else if (market!!.events_data[i].sport_id == AppConstants.SportType.CRICKET && market!!.events_data[i].currently_live == 0) {
-                    cricketData.add(market!!.events_data[i])
-                } else if (market!!.events_data[i].sport_id == AppConstants.SportType.FOOTBALL && market!!.events_data[i].currently_live == 0) {
-                    footballData.add(market!!.events_data[i])
-                } else if (market!!.events_data[i].sport_id == AppConstants.SportType.TENNIS && market!!.events_data[i].currently_live == 0) {
-                    tennisData.add(market!!.events_data[i])
-                }
+        inPlayFootball.clear()
+        inPlayCricket.clear()
+        inPlayFootball.clear()
+        inPlayTennis.clear()
+        cricketData.clear()
+        tennisData.clear()
+        footballData.clear()
+        itemList?.clear()
+        for (i in market.events_data.indices) {
+            if (market.events_data[i].sport_id == AppConstants.SportType.CRICKET && market.events_data[i].currently_live == 1) {
+                inPlayCricket.add(market.events_data[i])
+            } else if (market.events_data[i].sport_id == AppConstants.SportType.FOOTBALL && market.events_data[i].currently_live == 1) {
+                inPlayFootball.add(market.events_data[i])
+            } else if (market.events_data[i].sport_id == AppConstants.SportType.TENNIS && market.events_data[i].currently_live == 1) {
+                inPlayTennis.add(market.events_data[i])
+            } else if (market.events_data[i].sport_id == AppConstants.SportType.CRICKET && market.events_data[i].currently_live == 0) {
+                cricketData.add(market.events_data[i])
+            } else if (market.events_data[i].sport_id == AppConstants.SportType.FOOTBALL && market.events_data[i].currently_live == 0) {
+                footballData.add(market.events_data[i])
+            } else if (market.events_data[i].sport_id == AppConstants.SportType.TENNIS && market.events_data[i].currently_live == 0) {
+                tennisData.add(market.events_data[i])
             }
-
-            Log.e("LoginActivity",
-                "from tennis ${inPlayTennis} \n from cricket ${inPlayCricket} \nfrom fotball ${inPlayFootball}")
-            if (inPlayCricket.size > 0) {
-                itemsArrayList!!.add(EventNewModel("Cricket", inPlayCricket.toMutableList()))
-            }
-            if (inPlayTennis.size > 0) {
-                itemsArrayList!!.add(EventNewModel("Tennis", inPlayTennis.toMutableList()))
-            }
-            if (inPlayFootball.size > 0) {
-                itemsArrayList!!.add(EventNewModel("Football", inPlayFootball.toMutableList()))
-            }
-            if (cricketData.size > 0) {
-                mostPopularList!!.add(EventNewModel("Cricket", cricketData.toMutableList()))
-            }
-            if (tennisData.size > 0) {
-                mostPopularList!!.add(EventNewModel("Tennis", tennisData.toMutableList()))
-            }
-            if (footballData.size > 0) {
-                mostPopularList!!.add(EventNewModel("Football", footballData.toMutableList()))
-            }
-            itemList?.add(0)
-            itemList?.add(2)
-
-            adapterBothMatch.updateAdapter(itemList!!, itemsArrayList!!, mostPopularList!!)
-
-
         }
+
+        Log.e("LoginActivity",
+            "from tennis ${inPlayTennis} \n from cricket ${inPlayCricket} \nfrom fotball ${inPlayFootball}")
+        if (inPlayCricket.size > 0) {
+            itemsArrayList!!.add(EventNewModel("Cricket", inPlayCricket.toMutableList()))
+        }
+        if (inPlayTennis.size > 0) {
+            itemsArrayList!!.add(EventNewModel("Tennis", inPlayTennis.toMutableList()))
+        }
+        if (inPlayFootball.size > 0) {
+            itemsArrayList!!.add(EventNewModel("Football", inPlayFootball.toMutableList()))
+        }
+        if (cricketData.size > 0) {
+            mostPopularList!!.add(EventNewModel("Cricket", cricketData.toMutableList()))
+        }
+        if (tennisData.size > 0) {
+            mostPopularList!!.add(EventNewModel("Tennis", tennisData.toMutableList()))
+        }
+        if (footballData.size > 0) {
+            mostPopularList!!.add(EventNewModel("Football", footballData.toMutableList()))
+        }
+        itemList?.add(0)
+        itemList?.add(2)
+
+        adapterBothMatch.updateAdapter(itemList!!, itemsArrayList!!, mostPopularList!!)
+
+
     }
 
     override fun onItemClick() {
