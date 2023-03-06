@@ -10,6 +10,7 @@ import com.matrix.datamodelconversation.databinding.ActivityMainBinding
 import com.matrix.datamodelconversation.model.EventNewModel
 import com.matrix.datamodelconversation.model.eventres.*
 import com.matrix.datamodelconversation.model.socketres.SocketRes
+import org.greenrobot.eventbus.EventBus
 
 class MainActivity : AppCompatActivity(), AdapterBothMatch.OnItemClickListener {
     private val binding: ActivityMainBinding by lazy {
@@ -31,7 +32,7 @@ class MainActivity : AppCompatActivity(), AdapterBothMatch.OnItemClickListener {
     private val selectionMainList: MutableList<Selection?> = mutableListOf()
 
 
-    val adapterBothMatch: AdapterBothMatch = AdapterBothMatch(true, ArrayList(),
+    private val adapterBothMatch: AdapterBothMatch = AdapterBothMatch(true, ArrayList(),
         ArrayList(), ArrayList(), this)
 
     @SuppressLint("NotifyDataSetChanged", "SuspiciousIndentation")
@@ -60,8 +61,8 @@ class MainActivity : AppCompatActivity(), AdapterBothMatch.OnItemClickListener {
             for (i in market.events_data.indices) {
                 if (market.events_data[i].id == socketRes.MI) {
                     Log.d("Tag", "response ${market.events_data[i].market_odds?.selections}")
-                    if (market!!.events_data[i].id == socketRes.MI) {
-                        for (j in market!!.events_data[i].market_odds?.selections?.indices!!) {
+                    if (market.events_data[i].id == socketRes.MI) {
+                        for (j in market.events_data[i].market_odds?.selections?.indices!!) {
                             val resId =
                                 market!!.events_data[i].market_odds?.selections?.get(j)?.selection_id
                             val socketId = socketRes.message?.BF?.SL?.get(j)?.I
@@ -85,7 +86,6 @@ class MainActivity : AppCompatActivity(), AdapterBothMatch.OnItemClickListener {
                                 selectionMainList.add(Selection(bo, lo, socketId, "ACTIVE"))
                             }
                         }
-                        Log.d("Tag", "socket $selectionMainList")
                     }
 
                 }

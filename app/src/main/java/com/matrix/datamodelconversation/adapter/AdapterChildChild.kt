@@ -2,11 +2,16 @@ package com.matrix.datamodelconversation.adapter
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.matrix.datamodelconversation.databinding.RowInplayChildChildBinding
 import com.matrix.datamodelconversation.model.eventres.EventsData
+import com.matrix.datamodelconversation.model.eventres.Selection
+import org.greenrobot.eventbus.EventBus
+import org.greenrobot.eventbus.Subscribe
+import org.greenrobot.eventbus.ThreadMode
 
 
 class AdapterChildChild(
@@ -31,6 +36,7 @@ class AdapterChildChild(
     init {
         this.mOnItemClickListener = onItemClickListener
         this.onItemSwitchListener = onItemSwitchListener
+        EventBus.getDefault().register(this)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
@@ -41,14 +47,16 @@ class AdapterChildChild(
         return MyViewHolder(binding)
 
     }
-
+    @Subscribe(threadMode = ThreadMode.MAIN, sticky = true)
+    fun onMessageEvent(selectionMainList: MutableList<Selection?>) {
+      selectionMainList
+    }
     fun updateItem(index: Int, newData: EventsData?) {
         // Update the data in the list that backs the adapter
         mItems[index] = newData
         // Notify the adapter of the change
         notifyItemChanged(index)
     }
-
     @SuppressLint("ClickableViewAccessibility", "SuspiciousIndentation")
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         holder.binding.tvOneTitle.text = mItems[position]!!.event_name

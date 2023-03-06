@@ -9,7 +9,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.matrix.datamodelconversation.databinding.RowInplayOpenbetsBinding
 import com.matrix.datamodelconversation.databinding.RowMostPopularHeaderBinding
 import com.matrix.datamodelconversation.model.EventNewModel
-import com.matrix.datamodelconversation.model.eventres.EventsData
 import com.matrix.datamodelconversation.model.eventres.Selection
 
 
@@ -117,10 +116,6 @@ class AdapterBothMatch(var isLeftRight:Boolean, var itemList: MutableList<Int>, 
 
     }
 
-    fun updateData(parentPos: Int, childPos: Int, newData: Selection) {
-        mItems[parentPos].childItems[childPos]?.market_odds?.selections?.set(childPos, newData)
-        notifyItemChanged(parentPos)
-    }
 
 
 }
