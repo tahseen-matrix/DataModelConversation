@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity(), AdapterBothMatch.OnItemClickListener {
     val adapterBothMatch: AdapterBothMatch = AdapterBothMatch(true, ArrayList(),
         ArrayList(), ArrayList(), this)
 
-    @SuppressLint("NotifyDataSetChanged")
+    @SuppressLint("NotifyDataSetChanged", "SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
@@ -57,29 +57,35 @@ class MainActivity : AppCompatActivity(), AdapterBothMatch.OnItemClickListener {
 
         binding.connectBtn.setOnClickListener {
             selectionMainList.clear()
-            socketRes.message!!.BF?.SL?.forEach { it ->
-               val bo =it?.BO?.map { BackOdd(it?.O, it?.S,it?.I) }
-               val lo =it?.LO?.map { LayOdd(it?.O, it?.S, it?.I) }
-
-                selectionMainList.add(Selection(bo,
-                  lo,
-                    it?.I,
-                    "ACTIVE"))
-            }
-
-            Log.d("Tag", "socket $selectionMainList")
-
-            for (i in market.events_data.indices){
-                if ( market.events_data[i].id == socketRes.MI){
+            for (i in market.events_data.indices) {
+                if (market.events_data[i].id == socketRes.MI) {
                     Log.d("Tag", "response ${market.events_data[i].market_odds?.selections}")
-                    if (market.events_data[i].market_odds?.selections == selectionMainList){
-                        Log.i("TAG", "SAME ARRAY LIST")
-                    }
-                    else{
-                        //HERE UPDATE THE DATA
-                        Log.i("TAG", "Different ARRAY LIST")
-                        market.events_data[i].market_odds?.selections = selectionMainList
-                        adapterBothMatch.notifyDataSetChanged()
+                    if (market!!.events_data[i].id == socketRes.MI) {
+                        for (j in market!!.events_data[i].market_odds?.selections?.indices!!) {
+                            val resId =
+                                market!!.events_data[i].market_odds?.selections?.get(j)?.selection_id
+                            val socketId = socketRes.message?.BF?.SL?.get(j)?.I
+                            if (resId == socketId) {
+                                val bo: MutableList<BackOdd> = mutableListOf()
+                                val lo: MutableList<LayOdd> = mutableListOf()
+                                if (socketRes.message?.BF?.SL?.get(j)?.BO?.size!! > 0) {
+                                    if (socketRes.message.BF.SL[j]?.BO?.get(0) != null)
+                                        bo.add(BackOdd(socketRes.message.BF.SL[j]?.BO?.get(0)?.O,
+                                            socketRes.message.BF.SL[j]?.BO?.get(0)?.S,
+                                            socketRes.message.BF.SL[j]?.BO?.get(0)?.I))
+                                }
+
+                                if (socketRes.message.BF.SL[j]?.LO?.size!! > 0) {
+                                    if (socketRes.message.BF.SL[j]?.LO?.get(0) != null)
+                                        lo.add(LayOdd(socketRes.message.BF.SL[j]?.LO?.get(0)?.O,
+                                            socketRes.message.BF.SL[j]?.LO?.get(0)?.S,
+                                            socketRes.message.BF.SL[j]?.LO?.get(0)?.I))
+                                }
+
+                                selectionMainList.add(Selection(bo, lo, socketId, "ACTIVE"))
+                            }
+                        }
+                        Log.d("Tag", "socket $selectionMainList")
                     }
 
                 }

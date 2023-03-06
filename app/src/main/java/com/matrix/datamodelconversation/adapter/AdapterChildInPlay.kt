@@ -34,9 +34,11 @@ class AdapterChildInPlay(val isLeftRight: Boolean, var mItems: MutableList<Event
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
+        val album = mItems[position]
+        holder.binding.tvTitle.text =album.date
+        holder.binding.rvChildChild.adapter = AdapterChildChild(isLeftRight,album.childItems,this)
 
-        holder.binding.rvChildChild.adapter = AdapterChildChild(isLeftRight,mItems[position].childItems,this)
-        holder.binding.tvTitle.text =mItems[position].date
+
         if (mItems[position].childItems!=null){
             holder.binding.group2.visibility = View.VISIBLE
         }else{

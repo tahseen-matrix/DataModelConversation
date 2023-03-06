@@ -9,6 +9,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.matrix.datamodelconversation.databinding.RowInplayOpenbetsBinding
 import com.matrix.datamodelconversation.databinding.RowMostPopularHeaderBinding
 import com.matrix.datamodelconversation.model.EventNewModel
+import com.matrix.datamodelconversation.model.eventres.EventsData
+import com.matrix.datamodelconversation.model.eventres.Selection
 
 
 class AdapterBothMatch(var isLeftRight:Boolean, var itemList: MutableList<Int>, var mItems: MutableList<EventNewModel>, var mostList: MutableList<EventNewModel>, onItemClickListener: OnItemClickListener) :
@@ -18,6 +20,7 @@ class AdapterBothMatch(var isLeftRight:Boolean, var itemList: MutableList<Int>, 
     private var mOnItemClickListener: OnItemClickListener? = null
     private var context: Context? = null
     private var value:String?= "onRight"
+    lateinit var adapterChildPlay:AdapterChildInPlay
     companion object {
         private const val IN_PLAY = 0
         private const val MOST_POPULAR = 2
@@ -91,14 +94,16 @@ class AdapterBothMatch(var isLeftRight:Boolean, var itemList: MutableList<Int>, 
         @SuppressLint("ClickableViewAccessibility")
         fun bindInPlay() {
             val view = binding as RowInplayOpenbetsBinding
-            view.rvChildInplay.adapter = AdapterChildInPlay(isLeftRight,mItems,this)
+            adapterChildPlay = AdapterChildInPlay(isLeftRight,mItems,this)
+            view.rvChildInplay.adapter = adapterChildPlay
 
         }
 
         @SuppressLint("ClickableViewAccessibility")
         fun bindMostPopular() {
             val view = binding as RowMostPopularHeaderBinding
-            view.rvChildMostPopular.adapter = AdapterChildInPlay(isLeftRight,mostList,this)
+            adapterChildPlay = AdapterChildInPlay(isLeftRight,mostList,this)
+            view.rvChildMostPopular.adapter = adapterChildPlay
 
         }
 
@@ -110,6 +115,11 @@ class AdapterBothMatch(var isLeftRight:Boolean, var itemList: MutableList<Int>, 
 
     override fun onItemClick() {
 
+    }
+
+    fun updateData(parentPos: Int, childPos: Int, newData: Selection) {
+        mItems[parentPos].childItems[childPos]?.market_odds?.selections?.set(childPos, newData)
+        notifyItemChanged(parentPos)
     }
 
 
