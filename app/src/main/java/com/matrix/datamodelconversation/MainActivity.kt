@@ -67,6 +67,8 @@ class MainActivity : AppCompatActivity(), AdapterChildInPlay.OnItemClickListener
             for (i in market!!.events_data.indices) {
                 if (market!!.events_data[i].id == socketRes.MI) {
                     Log.d("Tag", "response ${market!!.events_data[i].market_odds?.selections}")
+
+
                     if (market!!.events_data[i].id == socketRes.MI) {
                         for (j in market!!.events_data[i].market_odds?.selections?.indices!!) {
                             val resId =

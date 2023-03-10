@@ -2,6 +2,7 @@ package com.matrix.datamodelconversation.adapter
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -23,8 +24,8 @@ class AdapterChildChild(
     private var mOnItemClickListener: OnItemClickListener? = null
     private var onItemSwitchListener: OnItemSwitchListener? = null
     private var context: Context? = null
-    private var selectedItemPos = -1
-    private var lastItemSelectedPos = -1
+    private var selectedItemPos = RecyclerView.NO_POSITION
+    private var selectedView:View? = null
     var odd: Double = 0.0
     private var total: Double = 0.0
     var stake: Double = 0.0
@@ -95,15 +96,15 @@ class AdapterChildChild(
         }
 
         holder.binding.apply {
-            if (position == selectedItemPos) {
+            if (selectedItemPos == position) {
                 if (tv1Click && !tv2Click && !tv3Click) {
                     if (isLeftRight) {
-                        if (holder.binding.tvX.text.toString() != "-") {
+                        if (holder.binding.tv1.text.toString() != "-") {
                             odd = tv1.text.toString().toDouble()
                             viewBetting.tvOddsValue.setText(holder.binding.tv1.text)
                         }
                     } else {
-                        if (holder.binding.tvX.text.toString() != "-") {
+                        if (holder.binding.tv1.text.toString() != "-") {
                             odd = tv1.text.toString().toDouble()
                             viewBetting.tvOddsValue.setText(holder.binding.tv1.text.toString())
                         }
@@ -113,13 +114,13 @@ class AdapterChildChild(
                 }
                 if (tv2Click && !tv1Click && !tv3Click) {
                     if (isLeftRight) {
-                        if (holder.binding.tvX.text.toString() != "-") {
+                        if (holder.binding.tv2.text.toString() != "-") {
                             odd = tv2.text.toString().toDouble()
                             viewBetting.tvOddsValue.setText(holder.binding.tv2.text)
                         }
 
                     } else {
-                        if (holder.binding.tvX.text.toString() != "-") {
+                        if (holder.binding.tv2.text.toString() != "-") {
                             odd = tv2.text.toString().toDouble()
                             viewBetting.tvOddsValue.setText(holder.binding.tv2.text)
                         }
@@ -151,45 +152,116 @@ class AdapterChildChild(
             viewBetting.ro.isVisible = position == selectedItemPos
 
             viewBetting.btnCancel.setOnClickListener {
-                viewBetting.ro.isVisible = false
+                if (selectedItemPos == holder.adapterPosition){
+                    selectedItemPos = RecyclerView.NO_POSITION
+                    selectedView?.isVisible = false
+                    selectedView = null
+                    tv2Click = false
+                    tv3Click = false
+                    tv1Click = false
+                }else{
+                    //save the selected posion and view
+                    val lastSelectedPosition = selectedItemPos
+                    selectedItemPos = holder.adapterPosition
+                    selectedView = holder.binding.viewBetting.ro
+                    tv2Click = false
+                    tv3Click = false
+                    tv1Click = false
+                    //show the selected layout
+                    holder.binding.viewBetting.ro.isVisible = true
+                    //hide the previously selected layout if there was one
+                    if(lastSelectedPosition != RecyclerView.NO_POSITION){
+                        notifyItemChanged(lastSelectedPosition)
+                    }
+                }
+                //notify the adapter of selected position change
+                notifyItemChanged(selectedItemPos)
+            }
+
+            Log.d("Tag", "click 1 $tv1Click click 2 $tv2Click click 3 $tv3Click")
+            if (selectedItemPos == position){
+                holder.binding.viewBetting.ro.isVisible = true
+                selectedView = holder.binding.viewBetting.ro
+            }else{
+                holder.binding.viewBetting.ro.isVisible = false
             }
             tv1.setOnClickListener {
                 tv1Click = true
-                selectedItemPos = position
-                if (lastItemSelectedPos == -1) {
-                    lastItemSelectedPos = selectedItemPos
-                } else {
-                    notifyItemChanged(lastItemSelectedPos)
-                    lastItemSelectedPos = selectedItemPos
+                if (selectedItemPos == holder.adapterPosition){
+                    selectedItemPos = RecyclerView.NO_POSITION
+                    selectedView?.isVisible = false
+                    selectedView = null
                     tv2Click = false
                     tv3Click = false
+                    tv1Click = false
+                }else{
+                    //save the selected posion and view
+                    val lastSelectedPosition = selectedItemPos
+                    selectedItemPos = holder.adapterPosition
+                    selectedView = holder.binding.viewBetting.ro
+                    tv2Click = false
+                    tv3Click = false
+                    //show the selected layout
+                    holder.binding.viewBetting.ro.isVisible = true
+                    //hide the previously selected layout if there was one
+                    if(lastSelectedPosition != RecyclerView.NO_POSITION){
+                        notifyItemChanged(lastSelectedPosition)
+                    }
                 }
+                //notify the adapter of selected position change
                 notifyItemChanged(selectedItemPos)
             }
             tv2.setOnClickListener {
                 tv2Click = true
-                selectedItemPos = position
-                if (lastItemSelectedPos == -1) {
-                    lastItemSelectedPos = selectedItemPos
-                } else {
-                    notifyItemChanged(lastItemSelectedPos)
-                    lastItemSelectedPos = selectedItemPos
+                if (selectedItemPos == holder.adapterPosition){
+                    selectedItemPos = RecyclerView.NO_POSITION
+                    selectedView?.isVisible = false
+                    selectedView = null
+                    tv2Click = false
+                    tv3Click = false
+                    tv1Click = false
+                }else{
+                    //save the selected posion and view
+                    val lastSelectedPosition = selectedItemPos
+                    selectedItemPos = holder.adapterPosition
+                    selectedView = holder.binding.viewBetting.ro
                     tv1Click = false
                     tv3Click = false
+                    //show the selected layout
+                    holder.binding.viewBetting.ro.isVisible = true
+                    //hide the previously selected layout if there was one
+                    if(lastSelectedPosition != RecyclerView.NO_POSITION){
+                        notifyItemChanged(lastSelectedPosition)
+                    }
                 }
+                //notify the adapter of selected position change
                 notifyItemChanged(selectedItemPos)
             }
             tvX.setOnClickListener {
                 tv3Click = true
-                selectedItemPos = position
-                if (lastItemSelectedPos == -1) {
-                    lastItemSelectedPos = selectedItemPos
-                } else {
-                    notifyItemChanged(lastItemSelectedPos)
-                    lastItemSelectedPos = selectedItemPos
+                if (selectedItemPos == holder.adapterPosition){
+                    selectedItemPos = RecyclerView.NO_POSITION
+                    selectedView?.isVisible = false
+                    selectedView = null
+                    tv2Click = false
+                    tv3Click = false
+                    tv1Click = false
+                }else{
+                    //save the selected posion and view
+                    val lastSelectedPosition = selectedItemPos
+                    selectedItemPos = holder.adapterPosition
+                    selectedView = holder.binding.viewBetting.ro
                     tv2Click = false
                     tv1Click = false
+                    //show the selected layout
+                    holder.binding.viewBetting.ro.isVisible = true
+                    //hide the previously selected layout if there was one
+                    if(lastSelectedPosition != RecyclerView.NO_POSITION){
+                        notifyItemChanged(lastSelectedPosition)
+                    }
+
                 }
+                //notify the adapter of selected position change
                 notifyItemChanged(selectedItemPos)
             }
         }
