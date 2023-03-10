@@ -42,18 +42,6 @@
                         "status": "ACTIVE",
                         "selection_id": 52729394,
                         "back_odds": [
-                            {
-                                "price": 4.4,
-                                "size": 92.46
-                            },
-                            {
-                                "price": 4.3,
-                                "size": 98.48
-                            },
-                            {
-                                "price": 4.2,
-                                "size": 36.19
-                            }
                         ],
                         "lay_odds": [
                             {
